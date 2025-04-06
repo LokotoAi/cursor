@@ -1,0 +1,19 @@
+# Ссылки на файлы и фрагменты кода, отвечающие за авторизацию в нейросетях
+
+1. **Resources/app/out/vs/editor/common/services/editorSimpleWorkerMain.js**
+   - `openai_api_base_url` и обработка ошибок, связанных с OpenAI.
+
+2. **Resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js**
+   - `openai_api_base_url` и обработка ошибок, связанных с OpenAI.
+
+3. **Resources/app/out/vs/workbench/api/node/extensionHostProcess.js**
+   - `openai_api_base_url` и обработка ошибок, связанных с OpenAI.
+
+4. **Resources/app/extensions/cursor-shadow-workspace/dist/extension.js**
+   - `openai_api_base_url` и обработка ошибок, связанных с OpenAI.
+
+5. **Resources/app/extensions/cursor-always-local/dist/main.js**
+   - `CheckClaudeAPIKey` для проверки API ключей Claude.
+
+6. **Resources/app/out/vs/workbench/workbench.desktop.main.js**
+   - `openai_api_base_url` и обработка ошибок, связанных с OpenAI. 
